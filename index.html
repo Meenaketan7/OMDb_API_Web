@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Searching</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- css -->
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!-- Logo -->
+    <div class="wrapper">
+        <div class="logo">
+            <!-- <img src="./image/logo.png" alt="Logo"> -->
+            <!-- <p>IMDb</p> -->
+            <i class="fa fa-imdb"></i>
+        </div>
+        <!-- logo end -->
+
+        <!-- Searching -->
+        <div class="search-container">
+            <div class="search-element">
+                <h3>Search Movie:</h3>
+                <input type="text" class="form-control" placeholder=" Search By title....." id="movie-search-box" onkeyup= "findMovies()">
+
+                <!-- List -->
+                <div class="search-list" id="search-list">
+                    <!-- <div class="search-list-item">
+                        <div class="search-item-thumbnail">
+                            <img src="./image/MV5BYjhiNjBlODctY2ZiOC00YjVlLWFlNzAtNTVhNzM1YjI1NzMxXkEyXkFqcGdeQXVyMjQxNTE1MDA@._V1_.jpg"
+                                alt="Avatar: The Way of Water (2022)">
+                        </div>
+                        <div class="search-item-info">
+                            <h3>Avatar: The Way of Water</h3>
+                            <p>2022</p>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <!-- End Search -->
+
+        <!-- results -->
+        <div class="container">
+            <div class="result-container">
+                <div class="result-grid" id="result-grid">
+                    <!-- <div class="movie-poster">
+                        <img src="./image/MV5BYjhiNjBlODctY2ZiOC00YjVlLWFlNzAtNTVhNzM1YjI1NzMxXkEyXkFqcGdeQXVyMjQxNTE1MDA@._V1_.jpg"
+                            alt="Avatar: The Way of Water (2022)">
+                    </div>
+                    <div class="movie-info">
+                        <h3 class="movie-title">Avatar: The Way of Water</h3>
+                        <ul class="movie-misc-info">
+                            <li class="year">Year: 2022</li>
+                            <li class="rated">Rated: 7.8</li>
+                            <li class="released">released: 16 DEC 2022</li>
+                        </ul>
+                        <p class="genre"><b>Action</b> <b> Adventure</b><b> Fantasy</b><b> Sci-Fi</b></p>
+                        <p class="writer"><b>Writers:</b> Cameron,Rick Jaffa,Amanda Silver</p>
+                        <p class="actors"><b>Actors:</b> Scam Worthinton, Zoe Saldana</p>
+                        <p class="plot"><b>Plot:</b> Jake Sully lives with his newfound family formed on the
+                            extrasolar moon Pandora. Once a familiar threat returns to finish what was previously
+                            started, Jake must work with Neytiri and the army of the Na'vi race to protect their
+                            home.</p>
+                        <p class="language"><b>language:</b> English</p>
+                        <p class = "awards"><b><i class = "fas fa-award"></i></b> Nominated for 4 Oscar</p>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <!-- results end -->
+    </div>
+
+
+
+
+
+
+
+
+    <!-- Script -->
+    <script src="./script.js"></script>
+</body>
+
+</html>
